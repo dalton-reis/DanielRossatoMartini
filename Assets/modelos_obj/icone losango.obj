@@ -1,0 +1,26 @@
+# Alias OBJ Model File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+# File units = millimeters
+
+mtllib icone losango.mtl
+
+g Mesh1 Model
+
+usemtl Layer0
+v 33851.2 0 -10251.2
+vt -1332.73 403.589
+vn 0 -1 -0
+v 33851.2 0 -10471.2
+vt -1332.73 412.251
+v 34971.2 0 -10471.2
+vt -1376.82 412.251
+v 35568.3 0 -11068.3
+vt -1400.33 435.759
+v 36275.4 0 -10361.2
+vt -1428.17 407.92
+v 35568.3 0 -9654.07
+vt -1400.33 380.081
+v 34971.2 0 -10251.2
+vt -1376.82 403.589
+f 1/1/1 2/2/1 3/3/1 4/4/1 5/5/1 6/6/1 7/7/1 
+
