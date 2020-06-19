@@ -19,6 +19,9 @@ public class TransparencyRoom : MonoBehaviour
     private bool metalic = true;
     private bool lowRefraction = true;
     private bool gi = true;
+    private bool graphy = false;
+
+    public GameObject graphyGO;
 
     public GameObject metalicos;
     public GameObject difusos;
@@ -187,6 +190,12 @@ public class TransparencyRoom : MonoBehaviour
             sphereStatus.text = "Refração Alta";
             camera3Instruction3Text.text = "Com uma refração alta, as distorções se tornam mais pronunciadas. ";
         }
+    }
+
+    public void toggleGraphy()
+    {
+        graphy = !graphy;
+        graphyGO.SetActive(graphy);
     }
 
     public void next()

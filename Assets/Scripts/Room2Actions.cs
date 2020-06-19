@@ -22,6 +22,9 @@ public class Room2Actions : MonoBehaviour
     private bool rtShadow = true;
     private bool lampBig = false;
     private bool denoise = false;
+    private bool graphy = false;
+
+    public GameObject graphyGO;
 
     public GameObject extraInfo;
     private int countSteps = 0;
@@ -120,6 +123,12 @@ public class Room2Actions : MonoBehaviour
         {
             denoiseStatus.text = "Denoise: Off";
         }
+    }
+
+    public void toggleGraphy()
+    {
+        graphy = !graphy;
+        graphyGO.SetActive(graphy);
     }
 
     public void toggleLampSize()
