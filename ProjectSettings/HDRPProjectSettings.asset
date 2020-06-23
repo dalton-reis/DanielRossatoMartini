@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  m_DefaultScenePrefabSaved: {fileID: 5823510469358171751, guid: f9e3ff5a1b8f49c4fa8686e68d2dadae,
+  m_DefaultScenePrefabSaved: {fileID: 5823510469358171751, guid: 43ba5f171e092ec49b58be5a225b375b,
     type: 3}
   m_DefaultDXRScenePrefabSaved: {fileID: 4798200196228829883, guid: cd7654ee2ad870e4d91bb1edac89d3f1,
     type: 3}

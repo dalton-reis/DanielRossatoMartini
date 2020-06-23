@@ -211,7 +211,7 @@ public class TransparencyRoom : MonoBehaviour
     }
     public void goToMainCamera()
     {
-        stepIndex = 5;
+        stepIndex = 0;
         changeCamera();
     }
 
