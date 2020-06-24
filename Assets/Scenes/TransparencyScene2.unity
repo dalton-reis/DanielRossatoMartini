@@ -9582,13 +9582,13 @@ MonoBehaviour:
   ssrStatus: {fileID: 1513006115}
   sphereStatus: {fileID: 766228432}
   giStatus: {fileID: 2063025076}
+  graphyGO: {fileID: 628174071}
   metalicos: {fileID: 411570261}
   difusos: {fileID: 1473037097}
   lowSphere: {fileID: 1075104973}
   highSphere: {fileID: 1126550396}
   extraInfo: {fileID: 1382329299}
   introduction: {fileID: 699502447}
-  graphyGO: {fileID: 628174071}
   controlCameraInstructions: {fileID: 1141156634}
   camera0Instructions: {fileID: 1121421840}
   camera01Instructions: {fileID: 1638586389}
