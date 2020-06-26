@@ -85,11 +85,11 @@ public class Room2Actions : MonoBehaviour
 
         if (rtShadow)
         {
-            RTStatus.text = "RT Shadow: On";
+            RTStatus.text = "Sombra RT: Ligada";
         }
         else
         {
-            RTStatus.text = "RT Shadow: Off";
+            RTStatus.text = "Sombra RT: Desligada";
         }
     }
 
@@ -117,11 +117,11 @@ public class Room2Actions : MonoBehaviour
 
         if (denoise)
         {
-            denoiseStatus.text = "Denoise: On";
+            denoiseStatus.text = "Denoiser: Ligado";
         }
         else
         {
-            denoiseStatus.text = "Denoise: Off";
+            denoiseStatus.text = "Denoiser: Desligado";
         }
     }
 
@@ -139,14 +139,14 @@ public class Room2Actions : MonoBehaviour
 
         if (lampBig)
         {
-            LampSize.text = "Lamp Size: Big";
+            LampSize.text = "Tamanho Luz: Grande";
             camera1Instruction2Text.text = "Como a fonte de luz é grande, três raios são refletidos para esse demonstração. embora na prática mais raios podem ser refletidos.";
             camera3Instruction1Text.text = "Uma fonte de luz grande resulta em uma sombra bem mais difusa, pois a luz vem de vários lugares e relativamente pouca luz é bloqueada.";
             camera2Instruction1Text.text = "Com a fonte de luz grande, maior parte da fonte de luz é visível a partir do ponto onde o raio é refletido, então o pixel fica bem bem claro.";
         }
         else
         {
-            LampSize.text = "Lamp Size: Small";
+            LampSize.text = "Tamanho Luz: Pequena";
             camera1Instruction2Text.text = "Como a fonte de luz é pequena, apenas dois raios são refletidos para o calculo.";
             camera3Instruction1Text.text = "Uma fonte de luz pequena resulta em uma sombra pouco difusa, apenas nas bordas da sombra é que há um ponto que parte dos raios atinge a luz e outra parte fica bloqueada.";
             camera1Instruction2Text.text = "Com a fonte de luz pequena, apenas parte da fonte de luz é visível a partir do ponto onde o raio é refletido, então o pixel fica um pouco no escuro.";
