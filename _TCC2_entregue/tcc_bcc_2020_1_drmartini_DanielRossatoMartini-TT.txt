@@ -1,0 +1,6 @@
+Para rodar o projeto é necessário uma placa de vídeo que suporte DXR, como uma placa da série RTX 20xx da Nvidia.
+
+Projeto foi desenvolvido na versão 2019.4.3f1 do Unity, nesta versão está funcionando. Versões mais novas podem funcionar, porém sem garantia.
+
+Basta descompactar o projeto, adicionar ele pelo unity hub e então abrir, o unity faz o resto que precisa.
+
